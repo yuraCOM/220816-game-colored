@@ -20,7 +20,6 @@ for (let index = 0; index < SQ_NUM; index++) {
 
 function setColor(element) {
   let color = randcolor();
-  console.log(color);
   element.style.backgroundColor = "#" + color;
   element.style.boxShadow = `0 0 2px #${color}, 0 0 10px #${color}`;
 }
